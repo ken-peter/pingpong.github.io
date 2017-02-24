@@ -5,45 +5,48 @@
     <title>PingPong game</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
-    <script type="js/jquery-3.1.1.js"></script>
-    <script type="js/scripts.js"></script>
+
   </head>
   <body>
-    <div class="jumbotron">
-      <h1>PING-PONG GAME</h1>
+    <div class="jumbotron text-center" id="head">
+      <h1><img src="img/ping1.jpg"></h1>
     </div><!-- end jumbotron -->
 <div class="container">
-<h2>How To Play <br><small><em>Basic rules and how the game game works.</em></small></h2>
+<h2 id="how">How To Play <br><small><em>Basic rules and how the game game works.</em></small></h2>
 <p>Its nice having fun and getting to relax your mind with a small game of numbers. The game works quite simply.
-Here are the guidelines to the game:
+Here are the guidelines to the game:<br>
 Upon input of a number the following happen;
 <ul>
-  <li>Numbers divisible by <strong>3</strong> become <strong><em>"ping"</em></strong></li>
-  <li>Numbers divisible by <strong>5</strong> become <strong><em>"pong"</em></strong></li>
-  <li>Numbers divisible by <strong>15</strong> become <strong><em>"pingpong"</em></strong></li>
+  <li>Numbers divisible by <strong>3</strong> become <strong><em>"ping"</em></strong>.</li>
+  <li>Numbers divisible by <strong>5</strong> become <strong><em>"pong"</em></strong>.</li>
+  <li>Numbers divisible by <strong>15</strong> become <strong><em>"pingpong"</em></strong>.</li>
 </ul>
 Fantastic!!!
 Now here's how to earn points after entering your number and clicking the play button:
 <ul>
-  <li>When your result is <strong><em>the number you keyed in</em></strong> you earn <strong>0 points</strong></li>
-  <li>When your result is <strong><em>"ping"</em></strong> you earn <strong>5 points</strong></li>
-  <li>When your result is <strong><em>"pong"</em></strong> you earn <strong>10 points</strong></li>
-  <li>When your result is <strong><em>"pingpong"</em></strong> you earn <strong>15 points</strong></li>
+  <li>When your result is <strong><em>the number you keyed in</em></strong> you earn <strong>0 points</strong>.</li>
+  <li>When your result is <strong><em>"ping"</em></strong> you earn <strong>5 points</strong>.</li>
+  <li>When your result is <strong><em>"pong"</em></strong> you earn <strong>10 points</strong>.</li>
+  <li>When your result is <strong><em>"pingpong"</em></strong> you earn <strong>15 points</strong>.</li>
 </ul>
 There you go! Play as many times as you can and add up your points to see how Mathematicized you are!!!<em>Good Luck!!</em></p>
 <div class="container" id="form">
 <form class="form-inline" action="" method="">
   <div class="form-group">
     <label>Enter Your Number</label>
-    <input type="text" class="form-control" placeholder="Your Lucky Number">
+    <input type="text" class="form-control" placeholder="Your Lucky Number" id="userinput">
   </div>
-  <button type="submit" class="btn">LET'S PING!!</button>
+  <button type="submit" class="btn btn-warning">LET'S PING!!</button>
 </form>
 </div><!-- close form -->
 </div><!-- close container -->
-<div class="container">
+<div id="results" class="container">
   <h2>Here are your results...</h2>
+<ul id="list">
 
+</ul>
 </div>
+<script src="js/jquery-3.1.1.js"></script>
+<script src="js/scripts.js"></script>
   </body>
 </html>

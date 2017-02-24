@@ -1,0 +1,22 @@
+#head{
+  background-image: url("../img/pingpongweb.jpg");
+}
+h1{
+  padding-top: 20px;
+}
+strong{
+    color: #F15A29;
+}
+em{
+  color: yellow;
+}
+#form{
+  background-image: url("../img/pingpong_logo.png");
+  height: 100px;
+}
+#how{
+  text-align: center;
+}
+#results{
+  display: none;
+}
