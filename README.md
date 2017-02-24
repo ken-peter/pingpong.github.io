@@ -1,7 +1,7 @@
 # Project Name
 PING-PONG GAME
 
-##Authors: [Your Name](https://your-website-or-email.com) + other authors
+##Authors:
 Kennedy Peter
 ######Email Address
 kennedypeter89@gmail.com
@@ -18,7 +18,3 @@ confirms if it is *divisible by both 3 and 5*. If **yes**, the number is replace
 * HTML
 * CSS
 * JavaScript
-
-## Setup
-
-Make sure you have git installed. On the terminal, navigate to your workspace directory and run

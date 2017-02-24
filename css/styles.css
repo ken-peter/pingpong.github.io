@@ -12,11 +12,32 @@ em{
 }
 #form{
   background-image: url("../img/pingpong_logo.png");
-  height: 100px;
+  height: 150px;
+  text-align: center;
+  font-size: 16pt;
+  color: #3399ff;
 }
 #how{
   text-align: center;
-}
+  }
 #results{
   display: none;
+}
+body{
+  font-family:fantasy;
+  background-color:  #3399ff;
+  font-size: 14pt;
+}
+#info{
+  border-left: 5px solid black;
+}
+.form-group{
+  padding-top: 60px;
+}
+.btn{
+  background-color:  #F15A29;
+  color:  white;
+}
+.button{
+  padding-top: 10px;
 }
